@@ -23,7 +23,6 @@ function play(question,answer){
   log("Current score: "+ score);
   log("-----------------")
 }
-
 /*
 var ques2 ={
   question: "What is my favourite sport? ",
@@ -51,13 +50,13 @@ var questions =[
   }
 ];
 
-var highestScore = "1. User1 = 15\n 2. User20 = 9\n" + userName + " = " + score;
-
 for(var i=0; i<questions.length;i++){
   var currentQues = questions[i];
   play(currentQues.question,currentQues.answer);
 }
 
-log("YAYY, you scored "+ score);
+log("YAYY, you scored "+ score+"\n");
+
+var highestScore = ("Leaderboard:\n"+"1. User1 = 15\n2. User2 = 9\n");
 
 log(highestScore);
